@@ -1,0 +1,37 @@
+Exercise 1
+Build the form
+1. Under the h1 tag, add a form tag with class container and id form
+2. In between the form tags, add a label and input pair for:
+invitee (name of person being invited)
+date
+sender (name of party host)
+Use the correct value for the type attribute
+Give each input an id and connect it to its label using the for attribute
+3. Use the input tag for a submit button, set its class to button
+
+Exercise 2
+Style the form
+Use all your CSS skills to create the style you see in the screenshot!
+Hints:
+1. In style.css, select the labels and inputs together using the group selector (a comma).
+Look at the screenshot of the form
+Which styles do the labels and inputs share?
+Remember: display inline versus block, and margin: auto for centering
+You can add the rule box-sizing: border-box; to account for different padding on inputs and labels
+2. Select the inputs alone and set margin-bottom, padding
+3. Select the labels alone, set padding, and adjust the font styles
+4. Select the submit input by its class and style it to look like the example 
+Use the hover pseudo class to set hover styles
+Make sure to add the cursor property:
+cursor: pointer;
+
+Exercise 3
+Making the form work
+1. Link index.html to main.js
+In main.js: 
+2. Use the DOM to select the form and assign it a variable.
+3. Inside function generate:
+Use the DOM to select each input, and the value property to get the value that the user typed in each input. Assign each a variable
+4. Still inside the function, use the DOM to select the invitation card span tag by their id.
+Set their textContent to the values input by the user that you saved in the previous step. Make sure to look at the markup for the inviation first so you know how to select each element.
+5. Outside the function, add an event listener to the form to call the function on the submit event

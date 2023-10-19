@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../PAP-L3-JS-Lesson-05-instructor"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PAP-L3-JS-Lesson-05-instructor"
+	}
+}
