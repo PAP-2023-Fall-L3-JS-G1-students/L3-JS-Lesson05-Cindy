@@ -39,3 +39,33 @@ p {
 
 /*======= Exercise 2 student code below ==========*/
 
+label, input {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.button {
+    color: white;
+    background-color: #BO5D6B;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+}
+
+.button:hover {
+    background-color: #008080;
+    cursor: pointer;
+}
