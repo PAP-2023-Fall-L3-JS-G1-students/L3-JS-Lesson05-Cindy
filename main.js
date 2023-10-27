@@ -5,12 +5,13 @@ function generate(event) {
     /*The line below prevents the form from trying to 
     send data to a server and refreshing the page*/
     event.preventDefault();
-
+    
     //Exercise 3.3 
     let invitee = document.querySelector('#invitee').value;
     let date = document.querySelector('#date').value;
     let sender = document.querySelector('#sender').value;
     let button = document.querySelector('#button').value;
+    console.log("test");
     
     console.log(invitee, date, sender, button);
 
