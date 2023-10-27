@@ -59,9 +59,10 @@ label {
 
 .button {
     color: white;
-    background-color: #BO5D6B;
+    background-color: #B05D6B;
     text-align: center;
     font-weight: bold;
+    font-size: 1.2em;
     border: 0;
 }
 
